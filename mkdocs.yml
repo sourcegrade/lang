@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Language Comparison
+repo_name: sourcegrade/lang
+repo_url: https://github.com/sourcegrade/lang
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+
+nav:
+  - Kotlin vs Python:
+    - Syntax:
+        - Variables: kotlin-vs-python/syntax/variables.md
+    - Installation: kotlin-vs-python/installation.md
+  - Sprechstunden:
+    - Bevor Sie eine Sprechstunde besuchen ...: support/good-bad-questions.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - toc:
+      title: Auf dieser Seite
+
+extra_css:
+  - stylesheets/smooth-scroll.css
