@@ -29,12 +29,9 @@ theme:
     - navigation.sections
 
 nav:
-  - Kotlin vs Python:
-    - Syntax:
-        - Variables: kotlin-vs-python/syntax/variables.md
-    - Installation: kotlin-vs-python/installation.md
-  - Sprechstunden:
-    - Bevor Sie eine Sprechstunde besuchen ...: support/good-bad-questions.md
+  - Syntax:
+    - Variables: syntax/variables.md
+    - Functions: syntax/functions.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -47,7 +44,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - toc:
-      title: Auf dieser Seite
+      title: On this page
 
 extra_css:
   - stylesheets/smooth-scroll.css
