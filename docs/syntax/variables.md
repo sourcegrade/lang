@@ -1,6 +1,6 @@
 Variables are an essential concept in programming languages.
 They allow us to store and manipulate values, making it easier to work with data in our code.
-On this page, we will compare variable declaration and assignment in two popular programming languages, Kotlin and Python.
+On this page, we will compare variable declaration and assignment in some popular programming languages.
 
 ## Variable Declaration
 
